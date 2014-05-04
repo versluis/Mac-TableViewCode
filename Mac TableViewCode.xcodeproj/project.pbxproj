@@ -18,6 +18,7 @@
 		D244782219167CD700A9561C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D244780119167CD700A9561C /* Cocoa.framework */; };
 		D244782A19167CD700A9561C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D244782819167CD700A9561C /* InfoPlist.strings */; };
 		D244782C19167CD700A9561C /* Mac_TableViewCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D244782B19167CD700A9561C /* Mac_TableViewCodeTests.m */; };
+		D244783719167D1600A9561C /* TableController.m in Sources */ = {isa = PBXBuildFile; fileRef = D244783619167D1600A9561C /* TableController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		D244782719167CD700A9561C /* Mac TableViewCodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mac TableViewCodeTests-Info.plist"; sourceTree = "<group>"; };
 		D244782919167CD700A9561C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D244782B19167CD700A9561C /* Mac_TableViewCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mac_TableViewCodeTests.m; sourceTree = "<group>"; };
+		D244783519167D1600A9561C /* TableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableController.h; sourceTree = "<group>"; };
+		D244783619167D1600A9561C /* TableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				D244781319167CD700A9561C /* AppDelegate.h */,
 				D244781419167CD700A9561C /* AppDelegate.m */,
 				D244781619167CD700A9561C /* MainMenu.xib */,
+				D244783519167D1600A9561C /* TableController.h */,
+				D244783619167D1600A9561C /* TableController.m */,
 				D244781919167CD700A9561C /* Images.xcassets */,
 				D244780819167CD700A9561C /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D244783719167D1600A9561C /* TableController.m in Sources */,
 				D244781519167CD700A9561C /* AppDelegate.m in Sources */,
 				D244780E19167CD700A9561C /* main.m in Sources */,
 			);
