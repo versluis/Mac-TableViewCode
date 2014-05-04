@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TableController : NSObject <NSTableViewDataSource>
+@interface TableController : NSObject <NSTableViewDataSource, NSTableViewDelegate>
 
 @property (nonatomic, strong) NSArray *numbers;
 @property (nonatomic, strong) NSArray *numberCodes;

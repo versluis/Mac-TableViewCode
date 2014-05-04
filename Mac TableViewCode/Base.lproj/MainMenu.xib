@@ -719,6 +719,7 @@
                                     </tableColumns>
                                     <connections>
                                         <outlet property="dataSource" destination="ohM-Y4-8SE" id="wTQ-Jr-qow"/>
+                                        <outlet property="delegate" destination="ohM-Y4-8SE" id="XeN-XZ-g55"/>
                                     </connections>
                                 </tableView>
                             </subviews>

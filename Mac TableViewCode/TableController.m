@@ -55,5 +55,12 @@
     }
 }
 
+#pragma mark - Table View Delegate
+
+- (void)tableViewSelectionDidChange:(NSNotification *)notification {
+    
+    NSTableView *tableView = notification.object;
+    NSLog(@"User has selected row %ld", (long)tableView.selectedRow);
+}
 
 @end
