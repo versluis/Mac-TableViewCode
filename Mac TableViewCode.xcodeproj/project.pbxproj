@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D244780219167CD700A9561C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D244780119167CD700A9561C /* Cocoa.framework */; };
+		D244780C19167CD700A9561C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D244780A19167CD700A9561C /* InfoPlist.strings */; };
+		D244780E19167CD700A9561C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D244780D19167CD700A9561C /* main.m */; };
+		D244781219167CD700A9561C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D244781019167CD700A9561C /* Credits.rtf */; };
+		D244781519167CD700A9561C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D244781419167CD700A9561C /* AppDelegate.m */; };
+		D244781819167CD700A9561C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D244781619167CD700A9561C /* MainMenu.xib */; };
+		D244781A19167CD700A9561C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D244781919167CD700A9561C /* Images.xcassets */; };
+		D244782119167CD700A9561C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D244782019167CD700A9561C /* XCTest.framework */; };
+		D244782219167CD700A9561C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D244780119167CD700A9561C /* Cocoa.framework */; };
+		D244782A19167CD700A9561C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D244782819167CD700A9561C /* InfoPlist.strings */; };
+		D244782C19167CD700A9561C /* Mac_TableViewCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D244782B19167CD700A9561C /* Mac_TableViewCodeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D244782319167CD700A9561C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D24477F619167CD700A9561C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D24477FD19167CD700A9561C;
+			remoteInfo = "Mac TableViewCode";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D24477FE19167CD700A9561C /* Mac TableViewCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mac TableViewCode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D244780119167CD700A9561C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D244780419167CD700A9561C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D244780519167CD700A9561C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D244780619167CD700A9561C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D244780919167CD700A9561C /* Mac TableViewCode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mac TableViewCode-Info.plist"; sourceTree = "<group>"; };
+		D244780B19167CD700A9561C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D244780D19167CD700A9561C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D244780F19167CD700A9561C /* Mac TableViewCode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mac TableViewCode-Prefix.pch"; sourceTree = "<group>"; };
+		D244781119167CD700A9561C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D244781319167CD700A9561C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D244781419167CD700A9561C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D244781719167CD700A9561C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D244781919167CD700A9561C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D244781F19167CD700A9561C /* Mac TableViewCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mac TableViewCodeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D244782019167CD700A9561C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D244782719167CD700A9561C /* Mac TableViewCodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mac TableViewCodeTests-Info.plist"; sourceTree = "<group>"; };
+		D244782919167CD700A9561C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D244782B19167CD700A9561C /* Mac_TableViewCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mac_TableViewCodeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D24477FB19167CD700A9561C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D244780219167CD700A9561C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D244781C19167CD700A9561C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D244782219167CD700A9561C /* Cocoa.framework in Frameworks */,
+				D244782119167CD700A9561C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D24477F519167CD700A9561C = {
+			isa = PBXGroup;
+			children = (
+				D244780719167CD700A9561C /* Mac TableViewCode */,
+				D244782519167CD700A9561C /* Mac TableViewCodeTests */,
+				D244780019167CD700A9561C /* Frameworks */,
+				D24477FF19167CD700A9561C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D24477FF19167CD700A9561C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D24477FE19167CD700A9561C /* Mac TableViewCode.app */,
+				D244781F19167CD700A9561C /* Mac TableViewCodeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D244780019167CD700A9561C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D244780119167CD700A9561C /* Cocoa.framework */,
+				D244782019167CD700A9561C /* XCTest.framework */,
+				D244780319167CD700A9561C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D244780319167CD700A9561C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D244780419167CD700A9561C /* AppKit.framework */,
+				D244780519167CD700A9561C /* CoreData.framework */,
+				D244780619167CD700A9561C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D244780719167CD700A9561C /* Mac TableViewCode */ = {
+			isa = PBXGroup;
+			children = (
+				D244781319167CD700A9561C /* AppDelegate.h */,
+				D244781419167CD700A9561C /* AppDelegate.m */,
+				D244781619167CD700A9561C /* MainMenu.xib */,
+				D244781919167CD700A9561C /* Images.xcassets */,
+				D244780819167CD700A9561C /* Supporting Files */,
+			);
+			path = "Mac TableViewCode";
+			sourceTree = "<group>";
+		};
+		D244780819167CD700A9561C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D244780919167CD700A9561C /* Mac TableViewCode-Info.plist */,
+				D244780A19167CD700A9561C /* InfoPlist.strings */,
+				D244780D19167CD700A9561C /* main.m */,
+				D244780F19167CD700A9561C /* Mac TableViewCode-Prefix.pch */,
+				D244781019167CD700A9561C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D244782519167CD700A9561C /* Mac TableViewCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D244782B19167CD700A9561C /* Mac_TableViewCodeTests.m */,
+				D244782619167CD700A9561C /* Supporting Files */,
+			);
+			path = "Mac TableViewCodeTests";
+			sourceTree = "<group>";
+		};
+		D244782619167CD700A9561C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D244782719167CD700A9561C /* Mac TableViewCodeTests-Info.plist */,
+				D244782819167CD700A9561C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D24477FD19167CD700A9561C /* Mac TableViewCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D244782F19167CD700A9561C /* Build configuration list for PBXNativeTarget "Mac TableViewCode" */;
+			buildPhases = (
+				D24477FA19167CD700A9561C /* Sources */,
+				D24477FB19167CD700A9561C /* Frameworks */,
+				D24477FC19167CD700A9561C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mac TableViewCode";
+			productName = "Mac TableViewCode";
+			productReference = D24477FE19167CD700A9561C /* Mac TableViewCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D244781E19167CD700A9561C /* Mac TableViewCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D244783219167CD700A9561C /* Build configuration list for PBXNativeTarget "Mac TableViewCodeTests" */;
+			buildPhases = (
+				D244781B19167CD700A9561C /* Sources */,
+				D244781C19167CD700A9561C /* Frameworks */,
+				D244781D19167CD700A9561C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D244782419167CD700A9561C /* PBXTargetDependency */,
+			);
+			name = "Mac TableViewCodeTests";
+			productName = "Mac TableViewCodeTests";
+			productReference = D244781F19167CD700A9561C /* Mac TableViewCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D24477F619167CD700A9561C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Pinkstone Pictures LLC";
+				TargetAttributes = {
+					D244781E19167CD700A9561C = {
+						TestTargetID = D24477FD19167CD700A9561C;
+					};
+				};
+			};
+			buildConfigurationList = D24477F919167CD700A9561C /* Build configuration list for PBXProject "Mac TableViewCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D24477F519167CD700A9561C;
+			productRefGroup = D24477FF19167CD700A9561C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D24477FD19167CD700A9561C /* Mac TableViewCode */,
+				D244781E19167CD700A9561C /* Mac TableViewCodeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D24477FC19167CD700A9561C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D244780C19167CD700A9561C /* InfoPlist.strings in Resources */,
+				D244781A19167CD700A9561C /* Images.xcassets in Resources */,
+				D244781219167CD700A9561C /* Credits.rtf in Resources */,
+				D244781819167CD700A9561C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D244781D19167CD700A9561C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D244782A19167CD700A9561C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D24477FA19167CD700A9561C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D244781519167CD700A9561C /* AppDelegate.m in Sources */,
+				D244780E19167CD700A9561C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D244781B19167CD700A9561C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D244782C19167CD700A9561C /* Mac_TableViewCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D244782419167CD700A9561C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D24477FD19167CD700A9561C /* Mac TableViewCode */;
+			targetProxy = D244782319167CD700A9561C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D244780A19167CD700A9561C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D244780B19167CD700A9561C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D244781019167CD700A9561C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D244781119167CD700A9561C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D244781619167CD700A9561C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D244781719167CD700A9561C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D244782819167CD700A9561C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D244782919167CD700A9561C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D244782D19167CD700A9561C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D244782E19167CD700A9561C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D244783019167CD700A9561C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mac TableViewCode/Mac TableViewCode-Prefix.pch";
+				INFOPLIST_FILE = "Mac TableViewCode/Mac TableViewCode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D244783119167CD700A9561C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mac TableViewCode/Mac TableViewCode-Prefix.pch";
+				INFOPLIST_FILE = "Mac TableViewCode/Mac TableViewCode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D244783319167CD700A9561C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mac TableViewCode.app/Contents/MacOS/Mac TableViewCode";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mac TableViewCode/Mac TableViewCode-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mac TableViewCodeTests/Mac TableViewCodeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D244783419167CD700A9561C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mac TableViewCode.app/Contents/MacOS/Mac TableViewCode";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mac TableViewCode/Mac TableViewCode-Prefix.pch";
+				INFOPLIST_FILE = "Mac TableViewCodeTests/Mac TableViewCodeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D24477F919167CD700A9561C /* Build configuration list for PBXProject "Mac TableViewCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D244782D19167CD700A9561C /* Debug */,
+				D244782E19167CD700A9561C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D244782F19167CD700A9561C /* Build configuration list for PBXNativeTarget "Mac TableViewCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D244783019167CD700A9561C /* Debug */,
+				D244783119167CD700A9561C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D244783219167CD700A9561C /* Build configuration list for PBXNativeTarget "Mac TableViewCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D244783319167CD700A9561C /* Debug */,
+				D244783419167CD700A9561C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D24477F619167CD700A9561C /* Project object */;
+}
