@@ -10,6 +10,7 @@
 
 @interface TableController : NSObject <NSTableViewDataSource>
 
-@property (nonatomic, strong) NSArray *languageCodes;
+@property (nonatomic, strong) NSArray *numbers;
+@property (nonatomic, strong) NSArray *numberCodes;
 
 @end
